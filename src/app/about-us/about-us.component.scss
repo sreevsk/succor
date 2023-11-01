@@ -1,0 +1,22 @@
+.page-header{
+    min-height: 50%;
+    height: 50vh;
+    z-index: 1; 
+    .page-header-image {
+        z-index: 1;
+        position: fixed;
+        height: 125%;
+    }
+
+}
+
+.description-sc {
+    max-width: fit-content !important;
+}
+
+.img-sc {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 0.25rem;
+}
