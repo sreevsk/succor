@@ -4,7 +4,7 @@ import { DOCUMENT } from '@angular/common';
 import { Location } from '@angular/common';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { filter, Subscription } from 'rxjs';
-// import AOS from "aos";
+import AOS from "aos";
 
 @Component({
     selector: 'app-root',
@@ -17,7 +17,8 @@ export class AppComponent implements OnInit {
 
     constructor( private renderer : Renderer2, private router: Router, @Inject(DOCUMENT,) private document: any, private element : ElementRef, public location: Location) {}
     ngOnInit() {
-        // AOS.init({once: true});
+        AOS.init({once: true});
+        AOS.refresh();
         var navbar : HTMLElement = this.element.nativeElement.children[0].children[0];
         this._router = this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: NavigationEnd) => {
             if (window.outerWidth > 991) {
