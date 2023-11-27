@@ -1,0 +1,28 @@
+.page-header {
+    min-height: 50%;
+    height: 50vh;
+}
+
+.description-sc {
+    max-width: fit-content !important;
+    margin-bottom: 35px !important;
+    text-align: left !important;
+
+}
+
+.display-inline {
+    display: inline;
+}
+
+.list-items {
+    .btn-round {
+        display: inline;
+        padding: 9px 12px;
+    }
+}
+
+.custom-card {
+    background-color: #17a2b8;
+    color: white;
+    box-shadow: 0 4px 8px #212529;
+}
