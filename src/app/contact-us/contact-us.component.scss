@@ -1,0 +1,31 @@
+.page-header {
+    min-height: 50%;
+    height: 50vh;
+}
+
+.description-sc {
+    max-width: fit-content !important;
+    margin-bottom: 35px !important;
+    text-align: left !important;
+
+}
+
+.display-inline {
+    display: inline;
+}
+
+.list-items {
+    .btn-round {
+        display: inline;
+        padding: 9px 12px;
+    }
+}
+
+
+.img-sc {
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 0.25rem;
+}
+
