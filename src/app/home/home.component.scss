@@ -13,3 +13,12 @@ ngb-progressbar {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .image-container.image-left {
+        margin-bottom: 25px;
+    }
+
+    .image-container.image-right {
+        margin-bottom: 25px;
+    }
+}

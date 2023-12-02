@@ -29,6 +29,27 @@
     border-radius: 0.25rem;
 }
 
+.card-container {
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 10px 0;
+    }
+
+    .col-lg-1 {
+        display: flex;
+    }
+
+    .btn-icon {
+        height: fit-content;
+    }
+
+    .col-lg-11 {
+        display: flex;
+        align-items: center !important;
+    }
+}
+
 .speciliazation-container {
     ul {
         width: min(100%, 60rem);
